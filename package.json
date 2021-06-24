@@ -26,7 +26,9 @@
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.22",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-photo-gallery": "^8.0.0"
+    "react-gradient-progress": "^1.0.3",
+    "react-photo-gallery": "^8.0.0",
+    "react-skillbars": "^1.6.1"
   },
   "devDependencies": {
     "cross-env": "^7.0.3"
