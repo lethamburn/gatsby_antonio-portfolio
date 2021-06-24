@@ -5,10 +5,8 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // You can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    
+    siteTitleAlt: `Antonio Rosales - Portfolio`,
   },
   flags: {
     FAST_DEV: true,
@@ -28,18 +26,19 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Antonio Portfolio`,
+        short_name: `Antonio`,
+        description: `Este es el portafolio de Antonio Rosales`,
         start_url: `/`,
-        background_color: `#141821`,
-        theme_color: `#f6ad55`,
+        background_color: `#1D1B1B`,
+        theme_color: `#EC4D37`,
         display: `standalone`,
         icons: [
+          //Estos son las imagenes para cuando compartes
           {
             src: `/android-chrome-192x192.png`,
             sizes: `192x192`,
-            type: `image/png`,
+            type: `image/png`, 
           },
           {
             src: `/android-chrome-512x512.png`,
